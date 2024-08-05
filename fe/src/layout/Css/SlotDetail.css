@@ -1,0 +1,420 @@
+.wrapper {
+    display: flex;
+    position: sticky;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.menu-height-dynamic {
+    height: 100vh !important;
+}
+
+.site-main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.site-main>.container {
+    padding: 0 0 45px;
+}
+
+.container {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.activity-details .main-content-lesson .activity-content-title {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #fafbfc;
+    display: inline-block;
+    background-color: #00000008;
+    border: 1px solid #d8d7d7;
+}
+
+.fs-20 {
+    font-size: 1.25rem;
+}
+
+.styled {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: .9em;
+    min-width: 400px;
+    font-family: sans-serif;
+}
+
+.entry-lesson-tabs .sidebar-block {
+    background: #fff;
+    border-radius: 8px;
+}
+
+.pd-t-20 {
+    padding-top: 20px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.mg-b-20 {
+    margin-bottom: 20px;
+}
+
+.entry-lesson-tabs h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+.h3,
+h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+
+.css-1ontqvh {
+    list-style: none;
+    margin: 0px;
+    padding: 8px 0px;
+    position: relative;
+}
+
+.fs-10 {
+    font-size: .625rem;
+}
+
+.entry-lesson-tabs .activities-content .MuiListItem-root {
+    align-items: flex-start;
+}
+
+.css-qs2q9j {
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    color: inherit;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 8px 16px;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+.activity-state-label {
+    border-radius: 0 !important;
+}
+
+.on-going {
+    color: #0078d4;
+    background: #eff6fc;
+}
+
+.activity-state-label {
+    max-width: 90px;
+    min-width: 90px;
+    margin-right: 5px;
+    border-radius: 8px;
+    font-size: .75rem;
+    text-align: center;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: unset;
+    letter-spacing: .5px;
+}
+
+.group-item .edu-collapsible .MuiPaper-root {
+    box-shadow: none !important;
+}
+
+.edu-collapsible .MuiPaper-root {
+    margin-bottom: 0;
+}
+
+.css-av0tg4 {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: none;
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.group-item .edu-collapsible .MuiPaper-root .MuiAccordionSummary-root {
+    padding: 4px 12px;
+    font-size: 16px;
+}
+
+.css-30swig {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    min-height: 48px;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgba(0, 0, 0, 0.03);
+    flex-direction: row-reverse;
+    padding: 12px;
+}
+
+.css-c4sutr {
+    height: auto;
+    overflow: visible;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-hboir5 {
+    display: flex;
+    width: 100%;
+}
+
+.css-8atqhb {
+    width: 100%;
+}
+
+.edu-collapsible .MuiCollapse-root .MuiAccordionDetails-root {
+    padding: 10px 25px;
+}
+
+.css-7avtwz {
+    padding: 8px 16px 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.group-item__content {
+    min-height: 30px;
+}
+
+.group-item__content .student-item {
+    margin-bottom: 4px;
+}
+
+.group-item__content .student-item__thumb .user-acc {
+    display: flex;
+    align-items: center;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.text-semibold {
+    font-weight: 600;
+}
+
+.comment {
+    margin-top: 25px;
+}
+
+.comment .comment-wrapper {
+    display: flex;
+}
+
+.comment .comment-wrapper .wrap-user-avatar {
+    margin-top: 0;
+    margin-right: 10px;
+    display: block;
+}
+
+.comment .comment-wrapper .main-comment {
+    flex-grow: 1;
+    max-width: calc(100% - 40px);
+}
+
+.comment .comment-wrapper .main-comment .comment-header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.comment .comment-wrapper .main-comment .wrapper .content {
+    width: 100%;
+    display: inline-block;
+    padding: 15px 8px 15px 15px;
+    background: #f2f5f7;
+    border-radius: 4px;
+    color: #373a3c;
+    font-size: 16px;
+}
+
+.comment .comment-wrapper .main-comment .cmt-buttons .cmt-summary {
+    font-size: 16px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 4px 16px #0000001a;
+    padding: 0;
+    height: 30px;
+    position: absolute;
+    right: 16px;
+    top: -25px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comment .comment-wrapper .main-comment .cmt-buttons .cmt-summary .vote-sumb>i {
+    color: #ffdc72;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.la,
+.las {
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+}
+
+.comment .comment-wrapper .main-comment .cmt-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cmt-summary {
+    font-size: 16px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 4px 16px #0000001a;
+    padding: 0;
+    height: 30px;
+    position: absolute;
+    right: 16px;
+    top: -25px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comment .comment-wrapper .main-comment .cmt-buttons .cmt-summary .cmt-sum-item {
+    position: relative;
+    margin: 3px 10px;
+}
+
+.comment .comment-wrapper .main-comment .reply-cmt {
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.comment .comment-wrapper .main-comment .vote-cmt {
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.comment .comment-wrapper .main-comment .cmt-buttons .cmt-summary .vote-sumb>i {
+    color: #ffdc72;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.la {
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+}
+
+.la {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.la-star {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23000' d='m30.336 12.547l-10.172-1.074L16 2.133l-4.164 9.34l-10.172 1.074l7.598 6.848L7.14 29.398L16 24.29l8.86 5.11l-2.122-10.004z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.button-send-comment {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.mg-b-10 {
+    margin-bottom: 10px !important;
+}
+
+.content-assignment {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.text-lightbold {
+    font-weight: 500;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
